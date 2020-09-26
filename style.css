@@ -1,14 +1,48 @@
-#h1 {
-  background-color: lightgrey;
-  color: black;
-  padding: 5px;
-  text-align: center;
+body {
+  font-family: sans-serif;
 }
-
-#button {
-  background-color: lightblue;
-  padding: 5px 20px
+.navbar {
+  background: #333;
+  height: 32px;
+  top: 50px;
+}
+p {
+  position: absolute;
+  color: white;
+  left: 25px;
+  top: -1px;
+}
+#a1 {
+  position: absolute;
+  color: white;
+  right: 25px;
+  top: 15px;
+}
+.device {
+  width: 300px;
+  padding: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   text-align: center;
-  display: inline-block;
-  font-size: 16px;
+  background: #bdc3c7;
+}
+.device input[type = "submit"] {
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  font-size: 15px;
+  border: 2px solid #3498db;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: #34495e;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.device input[type = "submit"]:focus {
+  width: 280px;
+  border: 2px solid #2ecc71;
 }
